@@ -11,7 +11,7 @@ html {
     background-color: #F5F5F5;
 }
 
-.container-header, .container-main, .container-footer, .container-sobre-mi{
+.container-header, .container-main, .container-footer, .container-sobre-mi, .copyright{
 
     font-family: 'Raleway', sans-serif;
     color:#464646;  
@@ -64,7 +64,7 @@ html {
 
 }
 
-.container-main, .seccion-sobre-mi{
+.container-main, .seccion-sobre-mi, .copyright{
     width: 65%;
     max-width: 1920px;
     margin: 0 auto;
@@ -135,4 +135,12 @@ html {
 
 .biografia {
     line-height: 1.17375rem;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
 }
