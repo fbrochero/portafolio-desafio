@@ -11,11 +11,11 @@ html {
     background-color: #F5F5F5;
 }
 
-.container-header, .container-main, .container-footer, .container-sobre-mi, .container-skills, .container-hobbies, .copyright{
-
+.container-header, .container-main, .container-footer, .container-sobre-mi, .container-skills, .container-hobbies, .container-formacion, .container-proyectos, .container-contacto{
     font-family: 'Raleway', sans-serif;
     color:#464646;  
 }
+
 .caja {
     position: fixed;
     top: 0;
@@ -62,7 +62,7 @@ html {
     color:#464646;
 }
 
-.container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .copyright{
+.container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
     width: 65%;
     max-width: 1920px;
     margin: 0 auto;
@@ -159,10 +159,71 @@ html {
     font-weight: 700;
     margin: 0.5rem 0;
 }
+.container-formacion {
+    background-color: #EAF2FD;
+    padding:2rem 0;
+    margin-top: 3rem;
+}
 
-.copyright{
+.conjunto-formacion {
+    display: flex;
+    flex-flow: 1 0;
+    gap:1.2rem;
+}
+
+.logo {
+    width:12rem;
+    height:8.125rem;
+}
+
+.cuadrado-texto {
+    flex-basis:50%;
+}
+
+.container-copyright{
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
     font-size: 1rem;  
+}
+
+@media (min-width:451px) and (max-width:768px) {
+     
+    html {
+        font-size:8px;
+    }
+
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-copyright {
+        width:90%;
+    }
+    
+    .parrafo-perfil {
+        font-size:1.5rem;
+        line-height:2rem;
+    }
+
+    .biografia {
+        font-size:1.4rem;
+        line-height:2rem;
+    }
+
+}
+@media (max-width: 450px) {
+    html {
+       font-size:6px;
+   }
+
+   .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+       width:90%;
+   }
+
+   .parrafo-perfil {
+       font-size:2rem;
+       line-height:2.5rem;
+   }
+
+   .biografia {
+       font-size:1.8rem;
+       line-height:2.5rem;
+   }
 }
