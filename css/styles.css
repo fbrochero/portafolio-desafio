@@ -36,7 +36,7 @@ html {
     margin-left:auto;
     display:flex;
     gap:1rem;
- }
+}
 
 .nombre::before {
     font-weight: 500;
@@ -55,8 +55,7 @@ html {
 .nav-text {
     text-decoration: none;
     font-weight: 500;
-    color:#464646;
-    
+    color:#464646;  
 }
 
 .nav-text:visited {
@@ -70,15 +69,14 @@ html {
     margin: 0 auto;
     margin-top: 2rem;;
     display: flex;
-    flex-flow:column wrap;
-        
+    flex-flow:column wrap;       
 }
+
 .container-titulo {
     display:flex;
     margin: 3rem auto;
     align-items: center;
-    justify-content:center;
-     
+    justify-content:center; 
 }
 
 .container-titulo h1 {
@@ -92,13 +90,12 @@ html {
     width: 20rem;
     height: 20rem;
     border-radius:20rem;
-
 }
+
 .parrafo-perfil {
     font-size: 1.375rem;
     line-height: 1.614375rem;
     font-weight: 400;
-
 }
 
 .container-redes {
@@ -129,6 +126,7 @@ html {
     font-size: 1.7rem;
     margin-bottom: 1rem;
 }
+
 .subtitulo i {
     margin-left:0.7rem;
 }
@@ -136,10 +134,12 @@ html {
 .biografia {
     line-height: 1.17375rem;
 }
+
 .conjunto-skills, .conjunto-hobbies {
     display:flex;
     gap:1rem;
 } 
+
 .container-skills .subtitulo, .container-hobbies .subtitulo, .container-formacion .subtitulo, .container-proyectos .subtitulo {
     text-align: center;
     padding:2rem;
@@ -161,7 +161,6 @@ html {
     color:#464646;
     font-weight: 700;
     margin: 0.5rem 0;
-    
 }
 
 .copyright{
